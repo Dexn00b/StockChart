@@ -1,7 +1,7 @@
 # server.R
 
 library(quantmod)
-source("helpers.R")
+source("adjust.R")
 
 shinyServer(function(input, output) {
   
